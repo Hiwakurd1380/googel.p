@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 0.9rem;
+    color: black;
+}
+body{
+    height: 100vh;
+    overflow: hidden;    
+    font-family:  Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    height: 60px;
+}
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+li{
+    text-align: center;
+    padding: 14px 12px;
+}
+a{
+    text-decoration: none;
+}
+li a:hover {
+    text-decoration: underline ;
+}
+.hh{
+    font-size: 0.9rem;
+}
+.menu-bg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.menu-bg:hover{
+    cursor: pointer;
+    background-color: rgba(221, 221, 221, 0.8);
+}
+.menu-button{
+    width: 15px;
+    height:15px;
+}
+.ee{
+    width: 40px;
+    height: 40px;
+    border-radius: 45px;
+}
+.ee:hover{
+    cursor: pointer;
+}
+.profile{
+    width: 25px;
+    height: 25px;
+    border-radius: 45px;
+    margin-top: -4px;
+}
+.search-wrapper{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    position:relative ;
+}
+.googel-icon{
+    width:200px;
+    height: 30vh;
+    margin: 0 auto;
+}
+input{
+    width: 580px;
+    height: 25px;
+    display: flex;
+    padding-left: 35px;
+    font-size: 1.2rem;
+    border: 1px solid #d3d3d3;
+    border-radius: 50px ;
+    margin: 0 auto;
+}
+input:hover{
+    box-shadow: 0 1px 3px 1px rgba(206, 204, 205, 0.8);
+}
+input:focus{
+    outline: none;
+}
+.search-icon{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 5px;
+    left:4px;
+}
+.e3{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 5px;
+    left: 89%;
+}
+.e3:hover{
+    cursor: pointer;
+}
+.e4{
+    background-color: black;
+    color: #d3d3d3;
+    position: absolute;
+    left: 80%;
+    width: max-content;
+    margin-top: 7px;
+    padding: 2px;
+    border-radius: 45px;
+    visibility: hidden;
+}
+.ii:hover .e4{
+    visibility: visible;
+}
+.e1{
+    width: 30px;
+    height: 15px;
+    position: absolute;
+    top: 5px;
+    left: 93%;
+}
+.e1:hover{
+    cursor: pointer;
+}
+.e2{
+    width: max-content;
+    background-color: black;
+    color: #d3d3d3;
+    position: absolute;
+    left: 85%;
+    margin-top: 7px;
+    padding: 2px;
+    border-radius: 45px;
+    visibility: hidden;
+}
+.rr:hover .e2{
+    visibility: visible;
+}
+.oop{
+    width: 255px;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+button{
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    background-color:#f8f9fa ;
+    border-radius: 6px;
+}
+button:hover{
+    border: 1px solid  #eee;
+    box-shadow:  0 0 2px 1px rgba(198, 189, 189, 0.5);
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    background-color: #f2f2f2 ;
+}
+.panel{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
